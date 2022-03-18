@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="leftArea">
+            <form id="form1">
+                <label for="loginInput">
+                    <span class="mark">Login</span>
+                    <input class="inputField" type="text" id="loginInput" value="">
+                </label>
+                <label for="passwordInput">
+                    <span class="mark">Password</span>
+                    <input class="inputField" type="text" id="passwordInput" value="">
+                </label>
+                <label for="emailInput">
+                    <span class="mark">Email address</span>
+                    <input class="inputField" type="text" id="emailInput" value="">
+                    <input type="submit" class="buttonUser" id="addUserButton" value="Add user">
+                    <input type="button" class="buttonUser hide" id="editUserButton" value="Edit user">
+                </label>
+            </form>
+        </div>
+        <div class="rightArea">
+            <table id="table1"></table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
